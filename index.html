@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/profile.jpg" alt="Nanditha Shindhe" class="logo-img">
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="mainicon">
+            <div class="menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </label>
+        <nav>
+            <a href="#" class="active" data-section="home">Home</a>
+            <a href="#about" data-section="about">About</a>
+            <a href="#" data-section="skills">Skills</a>
+            <a href="#" data-section="projects">Projects</a>
+            <a href="#" data-section="contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="active-section">
+        <div class="main">
+            <div class="detail">
+                <h1><span>Hi, It's Me</span> <br> I'm <span style="color:#00E8F8;">Nanditha Shindhe</span></h1>
+                <p>I'm a passionate web developer dedicated to crafting user-friendly and efficient applications. With a solid foundation in computer science and hands-on experience in various technologies, I enjoy transforming ideas into functional web solutions.</p>
+                <div class="social">
+                    <a href="https://github.com/Nandithashindhe" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nanditha-shindhe-96b14225b/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="mailto:nandithashindhe@gmail.com"><i class="bi bi-envelope"></i></a>
+                </div>
+            </div>
+            <div class="images">
+                <img src="/img/pass.png" alt="" width="100%">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="hidden-section">
+        <div class="main">
+            <h2>About Me</h2>
+            <img src="images/aboutme.png" alt="About Me" class="about-img-small" style="float: left;">
+            <p class="about-me-text">
+                I am a passionate web developer with a solid foundation in computer science. I enjoy creating user-friendly applications that enhance the online experience. As a student who is continuously improving my skills in web development, I strive to stay updated with the latest technologies and best practices in the field. My hands-on experience fuels my enthusiasm for transforming innovative ideas into functional web solutions.
+            </p>
+            <div class="info-container">
+                <div class="education-overlay">
+                    <h3>Education</h3>
+                    <ul class="education-list">
+                        <li>
+                            <strong>Masters of Computer Application</strong>, CMR Institute of Technology, Bangalore<br>
+                            CGPA: 9.2 (Pursuing)
+                        </li>
+                        <li>
+                            <strong>Bachelors of Science</strong>, Amrita School of Arts and Sciences, Mysore<br>
+                            CGPA: 8.23, 2023
+                        </li>
+                        <li>
+                            <strong>Pre – University Course – Science</strong>, Sadvidya Semi-Residential PU College, Mysore<br>
+                            Percentage: 81%
+                        </li>
+                    </ul>
+                </div>
+                <div class="education-overlay">
+                    <h3>Experience</h3>
+                    <h4>Internship</h4>
+                    <ul>
+                        <li style="color: black;">
+                            <strong>Prodigy Web Development</strong><br>
+                            Duration: August 2024 - October 2024
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="hidden-section">
+        <div class="main">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <img src="images/skills.png" alt="Skills" class="skills-image">
+                <div class="skills-list">
+                    <div class="skill">
+                        <div class="skill-overlay">
+                            <i class="bi bi-filetype-html skill-logo"></i>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-overlay">
+                            <i class="bi bi-braces skill-logo"></i>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-overlay">
+                            <i class="bi bi-database skill-logo"></i>
+                            <p>SQL</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-overlay">
+                            <i class="bi bi-github skill-logo"></i>
+                            <p>Git/GitHub</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-overlay">
+                            <i class="bi bi-file-earmark-code skill-logo"></i>
+                            <p>C</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-overlay">
+                            <i class="bi bi-file-earmark-code skill-logo"></i>
+                            <p>Java</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-overlay">
+                            <i class="bi bi-database skill-logo"></i>
+                            <p>Oracle</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-overlay">
+                            <i class="bi bi-ubuntu skill-logo"></i>
+                            <p>Ubuntu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="hidden-section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <div class="project-content">
+                    <h3>Online Food Ordering System</h3>
+                    <p>An online food ordering system tailored for college canteens, allowing students to effortlessly place orders, make secure payments, and specify convenient pick-up times for their meals.</p>
+                    <a href="link_to_project" class="btn">View Webpage</a>
+                    <div class="tools-overlay">
+                        <h4>Tools Used:</h4>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>School Webpage</h3>
+                    <p>A dynamic school webpage featuring a smooth navigation effect, engaging hover interactions, and various interactive elements to enhance the user experience and accessibility.</p>
+                    <a href="link_to_project" class="btn">View Webpage</a>
+                    <div class="tools-overlay">
+                        <h4>Tools Used:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>Stopwatch Web Application</h3>
+                    <p>An interactive stopwatch web application that allows users to start, pause, and reset the stopwatch, with the ability to track and display lap times.</p>
+                    <a href="link_to_project" class="btn">View Webpage</a>
+                    <div class="tools-overlay">
+                        <h4>Tools Used:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>Tic-Tac-Toe Web Application</h3>
+                    <p>An interactive tic-tac-toe web application where users can play against each other or an AI opponent, featuring functions to manage user clicks and check for winning conditions.</p>
+                    <a href="link_to_project" class="btn">View Webpage</a>
+                    <div class="tools-overlay">
+                        <h4>Tools Used:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <h3>Weather Data Fetching Web Page</h3>
+                    <p>A web page that retrieves weather data from a weather API based on the user's location or a user-inputted location. It displays current weather conditions, temperature, and other relevant information in an easy-to-read format.</p>
+                    <a href="link_to_project" class="btn">View Webpage</a>
+                    <div class="tools-overlay">
+                        <h4>Tools Used:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden-section">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-list">
+            <a href="mailto:nandithashindhe@gmail.com" class="contact">
+                <i class="bi bi-envelope contact-logo"></i>
+            </a>
+            <a href="https://github.com/Nandithashindhe" class="contact">
+                <i class="bi bi-github contact-logo"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nanditha-shindhe-96b14225b/" class="contact">
+                <i class="bi bi-linkedin contact-logo"></i>
+            </a>
+        </div>
+    </section>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
